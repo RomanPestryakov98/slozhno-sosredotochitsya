@@ -22,6 +22,6 @@
   --section-title-color: var(--pink-color);
   --article-title-color: var(--dark-blue-color);
 
-  --background: url(../images/cover-image-dark.png) no-repeat center/cover,
+  --background: fixed url(../images/cover-image-dark.png) no-repeat center/cover,
     var(--background-color);
 }

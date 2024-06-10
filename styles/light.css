@@ -22,7 +22,7 @@
   --subtitle-color: var(--dark-gray-color);
   --article-title-color: var(--dark-gray-color);
 
-  --background: url(../images/cover-image-light.png) no-repeat center/cover,
+  --background: fixed url(../images/cover-image-light.png) no-repeat center/cover,
     var(--background-color);
 }
 
