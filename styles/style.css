@@ -2,7 +2,7 @@
 
 .page {
   font-family: var(--font-family, sans-serif);
-  background: var(--background), var(--background-color);
+  background: var(--background);
   background-attachment: fixed;
   transition: all 0.3s;
 }
