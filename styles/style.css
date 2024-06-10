@@ -211,7 +211,7 @@
 }
 
 .section__title {
-  flex: 1 1 calc(314.96 / 984 * 100%);
+  width: calc(314.96 / 984 * 100%);
 }
 
 .section__article-list {
