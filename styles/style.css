@@ -211,7 +211,7 @@
 }
 
 .section__title {
-  width: calc(314.96 / 964 * 100%);
+  flex: 1 1 calc(314.96 / 964 * 100%);
 }
 
 .section__article-list {
@@ -261,11 +261,11 @@
 
   .section__article-list {
     flex-direction: column;
-    width: calc(472 / 708 * 100%);
+    flex: 1 1 calc(472 / 708 * 100%);
   }
 
   .section__title {
-    width: calc(236 / 708 * 100%);
+    flex: 1 1 calc(236 / 708 * 100%);
   }
 }
 
@@ -277,10 +277,6 @@
 
   .section {
     padding: 25px 0;
-  }
-
-  .section__title {
-    width: 100%;
   }
 }
 
