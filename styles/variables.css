@@ -2,3 +2,45 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  --font-family: ibm plex mono;
+  --pink-color: #ff0070;
+  --title-shadow-color: var(--pink-color);
+}
+
+@media (prefers-color-scheme: dark) {
+
+  :root {
+    --dark-blue-color: #000028;
+    --button-color: var(--pink-color);
+    --text-color: #f1b2ce;
+    --accent-color: var(--pink-color);
+    --background-color: var(--dark-blue-color);
+    --title-color: #db00ff;
+    --hover-color: rgb(255 0 112 / 0.4);
+    --subtitle-color: var(--dark-blue-color);
+    --section-title-color: var(--pink-color);
+    --article-title-color: var(--dark-blue-color);
+    --background: url(../images/cover-image-dark.png) no-repeat center/cover,
+      var(--background-color);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+
+  :root {
+    --dark-gray-color: #353430;
+    --button-color: var(--dark-gray-color);
+    --text-color: var(--dark-gray-color);
+    --accent-color: #ff8dcb;
+    --background-color: #fff1f7;
+    --title-color: #ffc2e6;
+    --hover-color: rgb(50 49 45 / 0.4);
+    --section-title-color: var(--dark-gray-color);
+    --subtitle-color: var(--dark-gray-color);
+    --article-title-color: var(--dark-gray-color);
+    --background: url(../images/cover-image-light.png) no-repeat center/cover,
+      var(--background-color);
+  }
+}

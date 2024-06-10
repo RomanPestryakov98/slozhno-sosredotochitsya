@@ -9,4 +9,23 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --dark-gray-color: #353430;
+
+  --button-color: var(--dark-gray-color);
+  --text-color: var(--dark-gray-color);
+  --accent-color: #ff8dcb;
+  --background-color: #fff1f7;
+  --title-color: #ffc2e6;
+  --hover-color: rgb(50 49 45 / 0.4);
+
+  --section-title-color: var(--dark-gray-color);
+  --subtitle-color: var(--dark-gray-color);
+  --article-title-color: var(--dark-gray-color);
+
+  --background: url(../images/cover-image-light.png) no-repeat center/cover,
+    var(--background-color);
+}
+
+.page.theme_light .header__rec {
+  display: none;
 }
