@@ -211,11 +211,11 @@
 }
 
 .section__title {
-  width: calc(314.96 / 984 * 100%);
+  width: calc(314.96 / 964 * 100%);
 }
 
 .section__article-list {
-  flex: 1 1 calc(648.92 / 984 * 100%);
+  flex: 1 1 calc(648.92 / 964 * 100%);
   display: flex;
   gap: 20px;
 }
@@ -261,6 +261,11 @@
 
   .section__article-list {
     flex-direction: column;
+    width: calc(472 / 708 * 100%);
+  }
+
+  .section__title {
+    width: calc(236 / 708 * 100%);
   }
 }
 
