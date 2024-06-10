@@ -3,7 +3,6 @@
 .page {
   font-family: var(--font-family, sans-serif);
   background: var(--background);
-  background-attachment: fixed;
   transition: all 0.3s;
 }
 
@@ -283,6 +282,7 @@
   font-size: 18px;
   line-height: 130%;
   color: var(--article-title-color);
+  width: 100%;
 }
 
 .gallery {

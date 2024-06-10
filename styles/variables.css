@@ -22,7 +22,7 @@
     --subtitle-color: var(--dark-blue-color);
     --section-title-color: var(--pink-color);
     --article-title-color: var(--dark-blue-color);
-    --background: url(../images/cover-image-dark.png) no-repeat center/cover,
+    --background: fixed url(../images/cover-image-dark.png) no-repeat center/cover,
       var(--background-color);
   }
 }
@@ -40,7 +40,7 @@
     --section-title-color: var(--dark-gray-color);
     --subtitle-color: var(--dark-gray-color);
     --article-title-color: var(--dark-gray-color);
-    --background: url(../images/cover-image-light.png) no-repeat center/cover,
+    --background: fixed url(../images/cover-image-light.png) no-repeat center/cover,
       var(--background-color);
   }
 }
