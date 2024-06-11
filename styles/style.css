@@ -261,11 +261,11 @@
 
   .section__article-list {
     flex-direction: column;
-    flex: 1 1 calc(472 / 708 * 100%);
+    flex: 1 1 calc(472 / 728 * 100%);
   }
 
   .section__title {
-    width: calc(236 / 708 * 100%);
+    width: calc(236 / 728 * 100%);
   }
 }
 
